@@ -1,0 +1,15 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: cmsc724-project-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: semantic_filter
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - cmsc724_project_data:/var/lib/postgresql/data
+
+volumes:
+  cmsc724_project_data:
