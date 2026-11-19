@@ -1,0 +1,11 @@
+model,review_id,review_text,predicate,classification,request_time_seconds
+llama3.2:3b,1,I absolutely loved this movie. The acting was amazing.,The reviewer enjoyed the movie,True,22.27
+llama3.2:3b,2,This was the worst movie I have ever watched.,The reviewer enjoyed the movie,False,4.478
+llama3.2:3b,3,The story was interesting but the ending was disappointing.,The reviewer enjoyed the movie,False,3.899
+llama3.2:3b,4,I would definitely recommend this movie to my friends.,The reviewer enjoyed the movie,True,3.857
+llama3.2:3b,5,The movie was boring and I almost fell asleep.,The reviewer enjoyed the movie,False,4.002
+llama3:latest,1,I absolutely loved this movie. The acting was amazing.,The reviewer enjoyed the movie,True,92.492
+llama3:latest,2,This was the worst movie I have ever watched.,The reviewer enjoyed the movie,False,9.925
+llama3:latest,3,The story was interesting but the ending was disappointing.,The reviewer enjoyed the movie,False,6.501
+llama3:latest,4,I would definitely recommend this movie to my friends.,The reviewer enjoyed the movie,False,6.712
+llama3:latest,5,The movie was boring and I almost fell asleep.,The reviewer enjoyed the movie,False,7.51

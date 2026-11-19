@@ -1,0 +1,6 @@
+review_id,review_text,predicate,similarity,tier2_prediction,tier3_prediction,final_classification,final_tier,tier2_time_seconds,tier3_time_seconds,escalated
+1,I absolutely loved this movie. The acting was amazing.,The reviewer enjoyed the movie,0.4853,True,,True,Tier 2,25.834,0.0,False
+2,This was the worst movie I have ever watched.,The reviewer enjoyed the movie,0.3952,False,,False,Tier 2,6.361,0.0,False
+3,The story was interesting but the ending was disappointing.,The reviewer enjoyed the movie,0.483,False,,False,Tier 2,3.967,0.0,False
+4,I would definitely recommend this movie to my friends.,The reviewer enjoyed the movie,0.4835,True,False,False,Tier 3,3.741,91.439,True
+5,The movie was boring and I almost fell asleep.,The reviewer enjoyed the movie,0.5217,False,,False,Tier 2,14.829,0.0,False
